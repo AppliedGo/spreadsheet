@@ -134,7 +134,7 @@ course
 Go is a statically typed language and does not allow assigning a value of a given type to a variable of another type without explicit type conversion. Static typing helps catching bugs at compile time, so that they cannot turn into runtime errors that are usually hard to track down.
 -->
 
-Another obstacle we are facing here is that the prices are floating-point values but for financial calculations, we want to use precise integer calculation only. Luckily, the [`strings`](https://golang.org/pkg/strings) and [`fmt`](https://golang.org/pkg/fmt/) packages have got us covered.
+Another obstacle we are facing here is that the prices are floating-point values but for financial calculations, we want to use precise integer calculation only. Luckily, the [`strings`](https://golang.org/pkg/strings) and [`strconv`](https://golang.org/pkg/strconv/) packages have got us covered.
 
 First, we remove the decimal point from the price using `strings.Replace()`, and then we can convert the strings to integers using `strconv.Atoi`.
 
