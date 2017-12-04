@@ -328,7 +328,7 @@ You should then find a file named `ordersReport.csv` in the current directory. V
 
 ### CSV format
 
-I used CSV here, rather than the file formats used by Excel or Open/Libre Office or Numbers, in order to stay as flexible and vendor-independent as possible. If you specifically want to work with Excel sheets, a [quick search on GitHub](https://github.com/search?o=desc&q=excel+language%3Ago&s=stars&type=Repositories&utf8=%E2%9C%93) should return a few useful third-party libraries.
+I used CSV here, rather than the file formats used by Excel or Open/Libre Office or Numbers, in order to stay as flexible and vendor-independent as possible. If you specifically want to work with Excel sheets, a [quick search on GitHub](https://github.com/search?o=desc&q=excel+language%3Ago&s=stars&type=Repositories&utf8=%E2%9C%93) should return a couple of useful third-party libraries. I have not used any of them yet, so I can neither share any experience nor recommend a particular one.
 
 
 
