@@ -34,6 +34,16 @@ Your managers, all through the hierarchy, love circulating spreadsheets via emai
 
 <!--more-->
 
+- - -
+
+*This article is also available as a video on the [Applied Go YouTube channel]():*
+
+{{< youtube fGD5rjENGRc >}}
+
+*It is the shortened version of a lecture in my upcoming minicourse ["Workplace Automation With Go"](https://appliedgo.com/p/workplace-automation-with-go).*
+
+- - -
+
 Spreadsheet data is everywhere. You can find it in Excel sheets as well as when downloading business data from a website.
 
 Package [`encoding/csv`](https://golang.org/pkg/encoding/csv/) from the Go standard library can help you processing that data and produce statistics, reports or other kinds of output from it. Here is how.
@@ -324,17 +334,13 @@ Step 3. Run the binary.
 
 You should then find a file named `ordersReport.csv` in the current directory. Verify that it contains the expected result.
 
-## Some remarks
 
-### CSV format
+### Q&A: Why CSV?
 
-I used CSV here, rather than the file formats used by Excel or Open/Libre Office or Numbers, in order to stay as flexible and vendor-independent as possible. If you specifically want to work with Excel sheets, a [quick search on GitHub](https://github.com/search?o=desc&q=excel+language%3Ago&s=stars&type=Repositories&utf8=%E2%9C%93) should return a couple of useful third-party libraries. I have not used any of them yet, so I can neither share any experience nor recommend a particular one.
+I use CSV here, rather than the file formats used by Excel or Open/Libre Office or Numbers, in order to stay as flexible and vendor-independent as possible. If you specifically want to work with Excel sheets, a [quick search on GitHub](https://github.com/search?o=desc&q=excel+language%3Ago&s=stars&type=Repositories&utf8=%E2%9C%93) should return a couple of useful third-party libraries. I have not used any of them yet, so I can neither share any experience nor recommend a particular one.
 
-
-
-## Tips
 ## Links
-
+[Wikipedia: Comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values) - Details about the CSV format.
 
 **Happy coding!**
 
