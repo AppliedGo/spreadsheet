@@ -36,7 +36,7 @@ Your managers, all through the hierarchy, love circulating spreadsheets via emai
 
 - - -
 
-*This article is also available as a video on the [Applied Go YouTube channel]():*
+*This article is also available as a video on the [Applied Go YouTube channel](http://www.youtube.com/c/AppliedGo):*
 
 {{< youtube fGD5rjENGRc >}}
 
