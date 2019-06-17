@@ -25,9 +25,9 @@ author = "Christoph Berger"
 email = "chris@appliedgo.net"
 date = "2017-12-04"
 draft = "false"
-domains = ["Automation"]
+categories = ["Automation"]
 tags = ["csv", "office", "spreadsheet"]
-categories = ["Tutorial"]
+articletypes = ["Tutorial"]
 +++
 
 Your managers, all through the hierarchy, love circulating spreadsheets via email. (They simply don't know better.) How to extract and analyze the relevant data from the daily mess? Go can help.
